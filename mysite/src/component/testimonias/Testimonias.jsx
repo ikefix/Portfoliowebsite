@@ -3,9 +3,7 @@ import './testimonias.css';
 
 const Testimonias = () => {
   return (
-    <div>
-      Testimonias
-    </div>
+    <section id='testimonias'>Testimonias</section>
   )
 }
 
