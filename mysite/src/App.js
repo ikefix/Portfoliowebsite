@@ -1,5 +1,5 @@
 import React from 'react'
-import { About,Contact,Experience,Header,Nav,Testimonias, Services, Portfolio} from './component'
+import {Home,About,Contact,Experience,Header,Nav,Testimonias, Services, Portfolio} from './component'
 import './index.css'
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <>
     <Header/>
     <Nav/>
+    <Home/>
     <About/>
     <Contact/>
     <Experience/>
