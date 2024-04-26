@@ -1,19 +1,20 @@
 import React from 'react'
-import {Home,About,Contact,Experience,Header,Nav,Testimonias, Services, Portfolio} from './component'
+import {About,Experience,Contact,Nav,Testimonias, Services, Portfolio,Footer} from './component'
 import './index.css'
 
 const App = () => {
   return (
     <>
-    <Header/>
+    
     <Nav/>
-    <Home/>
     <About/>
-    <Contact/>
     <Experience/>
-    <Portfolio/>
     <Services/>
+    <Portfolio/>
     <Testimonias/>
+    <Contact/>
+    <Footer/>
+    
     
     
     </>
